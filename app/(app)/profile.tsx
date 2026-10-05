@@ -63,6 +63,10 @@ export default function ProfileScreen() {
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>MY PROFILE</Text>
 
+      <Text style={styles.subtitle}>
+        View your account information and session details.
+      </Text>
+
       {loading ? (
         <View style={styles.state}>
           <ActivityIndicator color="#245bb2" />
@@ -139,6 +143,11 @@ const styles = StyleSheet.create({
     color: '#17324d',
     fontSize: 24,
     fontWeight: '700',
+  },
+
+  subtitle: {
+    color: '#536579',
+    fontSize: 16,
   },
 
   state: {
