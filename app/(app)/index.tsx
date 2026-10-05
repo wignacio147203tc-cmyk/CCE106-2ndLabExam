@@ -14,7 +14,7 @@ export default function DashboardScreen() {
       </Text>
 
       <Text style={styles.subtitle}>
-        Your student services in one place.
+        Access student records, profile information, and academic services in one place.
       </Text>
 
       <View style={styles.card}>
@@ -47,7 +47,7 @@ export default function DashboardScreen() {
         <Text style={styles.heading}>Session Status</Text>
 
         <Text style={styles.subtitle}>
-          {token ? 'Authenticated' : 'Not Available'}
+          {token ? 'Authenticated and Ready' : 'Session Not Available'}
         </Text>
       </View>
     </ScrollView>
