@@ -38,3 +38,21 @@ Student data is retrieved from the JSONPlaceholder users endpoint.
 ```sh
 npm install
 npx expo start
+```
+
+## Student Information
+
+Name: Winchell Ignacio
+Course: BSIT
+Subject: CCE106
+Project: Student Service Portal
+
+## Features Implemented
+
+- Authentication
+- Session Persistence
+- Student List
+- Student Details
+- Search Functionality
+- Profile Screen
+- Logout Functionality
